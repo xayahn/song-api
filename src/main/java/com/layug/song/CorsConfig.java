@@ -13,7 +13,7 @@ public class CorsConfig implements WebMvcConfigurer {
                 .allowedOrigins(
                     "https://song-ui-vlnq.onrender.com",  // Your frontend Render URL
                     "http://localhost:5173",               // Local development
-                    "http://localhost:3000"                // Alternative local port
+                    "http://localhost:3000"                // Alternative local por
                 )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
